@@ -1,0 +1,26 @@
+section{
+    height: 100%;
+    border: 1px solid red;
+  
+}
+
+.box{
+    display: flex;
+}
+.boxes{
+    margin: 10px;
+    border: 1px solid #000;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes:first-child{
+    background-color: brown;
+}
+.boxes:nth-child(2){
+    background-color: coral;
+}
+

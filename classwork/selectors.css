@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+}
+#first{
+    background-color: aquamarine;
+}
+#first{
+    display: flex;
+    justify-content: center;
+}
+#fn{
+    color: blue;
+}
+#ln{
+    color: rebeccapurple;
+}
+#em{
+    color: brown;
+}
+#pd{
+    color: chartreuse;
+}
+#sb{
+    background-color: coral;
+    color: blue;
+}
+#second{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#textarea{
+    resize: none;
+}
+#date{
+    color: rgb(0, 102, 255);
+}
+#sub{
+    background-color: blue;
+}
+
+#first input:focus{
+background-color: black;
+}
+#
+#third{
+    background-color: rgb(235, 148, 18);
+}
+#third ul{
+    color: chartreuse;
+}
+#third ol{
+    color: brown;
+}

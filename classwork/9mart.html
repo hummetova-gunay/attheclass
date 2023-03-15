@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+    <style>
+      div {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>register</h1>
+    <div>
+      <form action="">
+        <label for="name"><b>Username:</b></label>
+        <input type="text" id="name" required />
+        <br />
+        <br />
+        <label for="email"><b>Email:</b></label>
+        <input type="email" id="email" required />
+        <br />
+        <br />
+        <label for="pass"><b>password:</b></label>
+        <input type="password" id="pass" required />
+        <br />
+        <br />
+        <select required name="university">
+          <option value="" hidden selected>University</option>
+          <option value="bdu">BDU</option>
+          <option value="adnsu">ADNSU</option>
+          <option value="gdu">GDU</option>
+          <option value="ldu">LDU</option>
+        </select>
+        <select required>
+          <option value="">None</option>
+          <option value="baki">Baki</option>
+          <option value="gence">Gence</option>
+          <option value="lenkeran">Lenkeran</option>
+        </select>
+        <br /><br />
+        <input type="file" />
+        <label for=""></label>
+        <br />
+        <br />
+        <strong>Gender:</strong>
+        <input type="radio" name="gender" id="man" />
+        <label for="man">man</label>
+        <input type="radio" name="gender" id="woman" />
+        <label for="woman">woman</label>
+        <br /><br />
+        <input type="submit" value="Add user" />
+      </form>
+      <img
+        src="https://th.bing.com/th/id/OIP.O2UN0KKLc7uCvnRy5URWCAHaFL?pid=ImgDet&rs=1"
+        alt=""
+        width="400px"
+        height="400"
+      />
+    </div>
+  </body>
+</html>
