@@ -1,26 +1,83 @@
-section{
-    height: 100%;
-    border: 1px solid red;
-  
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration-line: none;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    position: fixed;
+    z-index: 1;
+
+}
+a{
+    padding: 20px;
+
+}
+li:hover{
+  border:hidden;
+
+    background-color: aqua;
+
 }
 
-.box{
+ul{
     display: flex;
-}
-.boxes{
-    margin: 10px;
-    border: 1px solid #000;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.boxes:first-child{
-    background-color: brown;
+#sec-1{
+    height: 800px;
+    background-image: url(moutain.jpg);
+    position: relative;
+    top: 100px;
 }
-.boxes:nth-child(2){
-    background-color: coral;
+
+
+#sec-2{
+    background-image: url(./cloudysky.jpg);
+    background-attachment: fixed;
+    height: 800px;
 }
+/* section2 */
+#sec-3{
+    background-color: beige;
+    height: 800px;
+    display: flex;
+    position: relative;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    
+}
+#box1{
+right: 0%;
+}
+#box2{
+    right: 0%;
+    bottom: 0%;
+}
+#box3{
+    bottom: 0%;
+}
+#box5{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
 
