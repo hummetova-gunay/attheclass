@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  width: 100%;
+}
+header nav {
+  background-color: black;
+  height: 50px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  height: 100%;
+}
+header nav ul li {
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+header nav ul li:hover {
+  transform: scale(1.5);
+  background-color: #fff;
+}
+header nav ul li:hover a {
+  color: #000;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+}
+footer div {
+  margin-top: 100px;
+}
+footer div h1 {
+  font-size: larger;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+footer div ul li {
+  margin: 10px 0;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+section div {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(202, 120, 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: dotted black;
+}
+section div:hover {
+  transform: rotateX(360deg);
+  background-image: url(minion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition-duration: 2s;
+}
+section div:hover p {
+  display: none;
+}/*# sourceMappingURL=main.css.map */

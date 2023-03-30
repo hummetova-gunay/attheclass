@@ -1,0 +1,26 @@
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(202, 120, 42);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: dotted black;
+        &:hover{
+            transform: rotateX(360deg);
+            background-image: url(minion.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            transition-duration: 2s;
+            p{
+                display: none;
+            }
+        }
+    }
+}
