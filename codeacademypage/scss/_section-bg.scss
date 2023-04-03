@@ -1,0 +1,20 @@
+#background-section{
+    height: 80vh;
+    width: 100%;
+    background-image: url(./images/team.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+   
+    h3{
+        color: #fff;
+    }
+    .opacity{
+        height: 100%;
+        width: 100%;
+       background-color: rgb(0, 0, 0, 0.5);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}

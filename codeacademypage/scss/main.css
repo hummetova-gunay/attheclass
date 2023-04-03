@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  height: 50px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul li {
+  text-decoration: none;
+}
+header nav ul li a {
+  color: #000;
+  text-decoration: none;
+}
+header nav ul li a:hover::after {
+  border-bottom: 2px solid red;
+  display: block;
+  width: 50px;
+}
+
+.home-pg {
+  height: 100vh;
+  background-image: url(./images/bg-image.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#about-page {
+  margin: 50px 0;
+}
+
+#background-section {
+  height: 80vh;
+  width: 100%;
+  background-image: url(./images/team.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#background-section h3 {
+  color: #fff;
+}
+#background-section .opacity {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
