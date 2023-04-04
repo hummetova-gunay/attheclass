@@ -4,6 +4,9 @@
   list-style-type: none;
   text-decoration: none;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 header {
   height: 50px;
@@ -86,4 +89,40 @@ header nav ul li a:hover::after {
 }
 .minions .minion-images .mini p {
   color: #fff;
+}
+
+.contact {
+  padding: 100px 0;
+  border: 1px solid black;
+  margin-top: 50px;
+}
+.contact .question h2 {
+  margin-left: 100px;
+  font-size: 64px;
+}
+.contact .application input {
+  padding: 7px 20px;
+  outline: none;
+  border: 1px dashed black;
+  margin-bottom: 10px;
+}
+.contact .application select {
+  outline: none;
+  border: 1px dashed black;
+  padding: 7px 20px;
+}
+.contact .application #tel {
+  width: 345px;
+}
+.contact .application #job {
+  width: 450px;
+  margin-bottom: 10px;
+}
+.contact .application button {
+  border: none;
+  display: block;
+  background-color: chocolate;
+  width: 450px;
+  color: #fff;
+  padding: 7px 20px;
 }/*# sourceMappingURL=main.css.map */
